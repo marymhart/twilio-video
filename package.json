@@ -142,7 +142,8 @@
     "build:quick": "npm-run-all clean lint docs build:es5 build:js build:min.js",
     "docs": "node ./scripts/docs.js ./dist/docs",
     "watch": "tsc -w",
-    "clean": "rimraf ./coverage ./es5 ./dist"
+    "clean": "rimraf ./coverage ./es5 ./dist",
+    "prepare": "npm build:quick"
   },
   "dependencies": {
     "@twilio/webrtc": "4.5.1",
@@ -153,5 +154,9 @@
   "browser": {
     "ws": "./src/ws.js",
     "xmlhttprequest": "./src/xmlhttprequest.js"
-  }
+  },
+  "files": [
+    "/dist",
+    "es5"
+  ]
 }
