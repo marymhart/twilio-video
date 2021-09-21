@@ -154,5 +154,9 @@
   "browser": {
     "ws": "./src/ws.js",
     "xmlhttprequest": "./src/xmlhttprequest.js"
-  }
+  },
+  "files": [
+    "README.md",
+    "dist/"
+  ]
 }
