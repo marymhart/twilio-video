@@ -7,10 +7,8 @@
 *.sw*
 browsers
 coverage
-dist/docs
 docker
 logs
-node_modules
 npm-debug.log
 scripts
 test.json
