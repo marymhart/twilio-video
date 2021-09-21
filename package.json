@@ -154,9 +154,5 @@
   "browser": {
     "ws": "./src/ws.js",
     "xmlhttprequest": "./src/xmlhttprequest.js"
-  },
-  "files": [
-    "/dist",
-    "es5"
-  ]
+  }
 }
